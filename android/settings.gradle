@@ -1,0 +1,3 @@
+rootProject.name = 'HeremapsMk1'
+
+include ':app'
