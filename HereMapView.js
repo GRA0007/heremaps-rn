@@ -1,3 +1,4 @@
 import {requireNativeComponent, ViewPropTypes} from 'react-native';
+import PropTypes from 'prop-types';
 
-module.exports = requireNativeComponent('ReactHereMapManager');
+module.exports = requireNativeComponent('ReactHereMapManager', null);

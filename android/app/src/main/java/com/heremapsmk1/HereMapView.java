@@ -29,7 +29,7 @@ public class HereMapView extends LinearLayout {
 
         inflate(context, R.layout.here_map, this);
 
-        mapFragment = (MapFragment) activity.getFragmentManager().findFragmentById(R.id.mapfragment);
+        /*mapFragment = (MapFragment) activity.getFragmentManager().findFragmentById(R.id.mapfragment);
 
         boolean success = MapSettings.setIsolatedDiskCacheRootPath(context.getExternalFilesDir(null) + File.separator + ".here-maps", "com.heremapsmk1.mapservice");
         if (!success) {
@@ -51,6 +51,6 @@ public class HereMapView extends LinearLayout {
                     }
                 }
             });
-        }
+        }*/
     }
 }
